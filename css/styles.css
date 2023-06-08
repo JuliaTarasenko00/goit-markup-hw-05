@@ -615,4 +615,11 @@ body {
   position: absolute;
   top: 24px;
   right: 24px;
+  transition: background var(--transition)
+}
+.backdrop-btn:hover,
+.backdrop-btn:focus {
+ background: #404BBF;
+border-radius: 50%;
+fill: #FFFFFF;;
 }
